@@ -18,11 +18,11 @@ elif answer.lower() == "right":
     elif answer.lower() == "cross":
         answer = input("You come across a stranger, who is offering gold ? ")
         if answer.lower() == "take":
-            print("You win !")        
+            print("You win !")
         else:
             print("invalid, you lose!")
     else:
-        print("invalid, you lose!")          
+        print("invalid, you lose!")  
 
 else:
-    print("invalid, you lose!")        
+    print("invalid, you lose!")
